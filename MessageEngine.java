@@ -1,11 +1,11 @@
-package rpgn1;
+package rpgn1;//パッケージはrpgn1
 
-import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.Point;
-import java.util.HashMap;
+import java.awt.Graphics;//awt.Graphicsをインポート
+import java.awt.Image;//awt.Imageをインポート
+import java.awt.Point;//awt.Pointをインポート
+import java.util.HashMap;//util.HashMapをインポート
 
-import javax.swing.ImageIcon;
+import javax.swing.ImageIcon;//javax.swing.ImageIconをインポート
 
 
 
@@ -71,7 +71,7 @@ public class MessageEngine {//メッセージウィンドウで使用する文�
  //createHashは文字をUTF-8の文字コードとして判別。
  //それを文字（UTF-8としての文字コード）と座標を一致させる
  //0,0や16,0などは手動で作成した
- //これ以下のkana2posは同じことしかしていないのでコメントは省く
+ //これ以下のkana2posは同じことしかしていない＆長いのでコメントは省く
  void createHash() {
         kana2Pos.put(new Character('あ'), new Point(0, 0));
         kana2Pos.put(new Character('い'), new Point(16, 0));

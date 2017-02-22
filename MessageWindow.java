@@ -1,13 +1,13 @@
-package rpgn1;
+package rpgn1;//パッケージはrpgn1
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.Rectangle;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.awt.Color;//awt.Colorをインポート
+import java.awt.Graphics;//awt.Graphicsをインポート
+import java.awt.Image;//awt.Imageをインポート
+import java.awt.Rectangle;//awt.Rectangleをインポート
+import java.util.Timer;//util.Timerをインポート
+import java.util.TimerTask;//util.TimerTaskをインポート
 
-import javax.swing.ImageIcon;
+import javax.swing.ImageIcon;//javax.swing.ImageIconをインポート
 
 public class MessageWindow {//メッセージウィンドウに関するクラス（敵クラスもここにまとめてしまいました）
 

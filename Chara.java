@@ -1,8 +1,8 @@
-package rpgn1;
-import java.awt.Graphics;
-import java.awt.Image;
+package rpgn1;//パッケージはrpgn1
+import java.awt.Graphics;//awt.Graphics;をインポート
+import java.awt.Image;//awt.Imageをインポート
 
-import javax.swing.ImageIcon;
+import javax.swing.ImageIcon;//javax.swing.ImageIconをインポート
 
 
 public class Chara implements Common {//chara（モブや主人公）に関するクラス

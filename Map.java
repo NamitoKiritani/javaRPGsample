@@ -1,13 +1,13 @@
-package rpgn1;
+package rpgn1;//パッケージはrpgn1
 
-import java.awt.Graphics;
-import java.awt.Image;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-import java.util.Vector;
+import java.awt.Graphics;//java.awt.Graphicsをインポート
+import java.awt.Image;//awt.Imageをインポート
+import java.io.BufferedReader;//io.BufferedReaderをインポート
+import java.io.InputStreamReader;//io.InputStreamReaderをインポート
+import java.util.StringTokenizer;//util.StringTokenizerをインポート
+import java.util.Vector;//util.Vectorをインポート
 
-import javax.swing.ImageIcon;
+import javax.swing.ImageIcon;//swing.ImageIconをインポート
 
 
 public class Map implements Common {//mapに関するクラス（フィールドや王城など
@@ -301,7 +301,7 @@ public class Map implements Common {//mapに関するクラス（フィールド
     }//makedoor終了」
 
 
-    private void makeMove(StringTokenizer st) {//主人公について（上と同様
+    private void makeMove(StringTokenizer st) {//マップ移動について（上と同様
 
         int x = Integer.parseInt(st.nextToken());//主人公の初期座標ｘ
         int y = Integer.parseInt(st.nextToken());//同様のｙ
@@ -316,7 +316,7 @@ public class Map implements Common {//mapに関するクラス（フィールド
         //moveeventをmとして上の情報を入力
         MoveEvent m = new MoveEvent(x, y, chipNo, destMapNo, destX, destY);
         events.add(m);//イベントとして取り込む
-    }//主人公についての読み込み関連おしまい
+    }//主人公のマップ移動についての読み込み関連おしまい
 
 
     public void show() {//mapをコンソールに書き出すメソッド

@@ -1,14 +1,14 @@
-package rpgn1;
+package rpgn1;//パッケージはrpgn1
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.util.Random;
-import java.util.Vector;
+import java.awt.Dimension;//awt.Dimensionをインポート
+import java.awt.Graphics;//awt.Graphicsをインポート
+import java.awt.Rectangle;//awt.Rectangleをインポート
+import java.awt.event.KeyEvent;//awt.event.KeyEventをインポート
+import java.awt.event.KeyListener;//awt.event.KeyListenerをインポート
+import java.util.Random;//util.Randomをインポート
+import java.util.Vector;//util.Vectorをインポート
 
-import javax.swing.JPanel;
+import javax.swing.JPanel;//javax.swing.JPanelをインポート
 
 //map,messagewindowなどを纏め上げるクラス
 class MainPanel extends JPanel implements KeyListener, Runnable, Common {
